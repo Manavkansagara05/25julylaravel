@@ -1,0 +1,54 @@
+
+.remove{ 
+    z-index: -100 !important; 
+    opacity: 0 !important;  
+
+} 
+.block{
+    display: block !important;
+}
+.none{
+    display: none !important;
+}
+.navemobile{
+    position: fixed;
+    display: grid;
+    place-items: center;
+    /* padding: 90px; */
+    padding-top: 32px;
+    height: 100vh;
+    z-index: 55;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.735);
+
+}
+
+.casll1{ 
+    width: 100%; 
+    z-index: 1000;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.navemobile a{
+    /* display: block; */
+    text-decoration: none;     
+    color: #fff; 
+    display: block; 
+    text-align: center; 
+    padding: 5px 0; 
+    font-weight: 900; 
+    font-size: 20px;
+}
+.navemobile a:hover{
+    color: brown;
+}
+.icon11{ 
+    margin-left: 74%; 
+    
+} 

@@ -1,0 +1,10 @@
+php artisan serve
+ npm run dav 
+php artisan make:migration test 
+php artisan make:migration create_testing_table
+php artisan migrate:status
+php artisan migrate:rollback
+php artisan make:migration create_testingadd_table  --table=testing
+php artisan make:model testmodel
+php artisan make:controller testmodel
+php artisan make: model product -mcr

@@ -1,0 +1,310 @@
+@media (max-width: 1190px) {
+    .container {
+        width: 100%;
+    }
+
+    .banner {
+        background-size: cover;
+    }
+
+    .m-auto {
+        margin: 0 50px;
+    }
+
+    .section-doctor::before {
+        display: none;
+    }
+
+    .section-doctor {
+        background-image: url(../images/doctor-bg1.png);
+    }
+
+    .max-w700 {
+        transform: translate(0px, 0px);
+    }
+
+    .video-play-icon {
+        display: none;
+    }
+
+    .p-5 {
+        padding: 20px;
+    }
+
+    .hand-text {
+        width: 82%;
+    }
+
+    .watch-hand-text2 h2::after,
+    .watch-hand-text h2::after {
+        width: 20%;
+        left: 100%;
+    }
+
+    .img-box {
+        padding: 70px;
+    }
+}
+
+@media (max-width: 968px) {
+    .container {
+        width: 100%;
+    }
+
+    .navbar .menu ul li a {
+        color: #fff;
+    }
+
+    .m-auto {
+        padding: 40px 0;
+    }
+
+    .text-header h2 {
+        padding-top: 40px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .img-box {
+        padding: 40px;
+    }
+
+    .text-header .text-box p {
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .watch-hand-text2 h2::after,
+    .watch-hand-text h2::after {
+        display: none;
+    }
+
+    .col-5 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .footer h6 {
+        margin-bottom: 5px;
+    }
+
+    .p-80 {
+        padding: 20px 0;
+    }
+
+    .text-header h2 {
+        padding-top: 0px;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+
+    
+    
+
+    .img-box {
+        padding: 0 0;
+    }
+
+    .text-header .text-box p {
+        width: 75%;
+        padding: 20px 0;
+    }
+
+    .p-80 {
+        padding: 65px;
+    }
+
+    .watch-hand-text,
+    .watch-hand-text2 {
+        display: grid;
+        place-items: center;
+        padding-bottom: 20px;
+    }
+
+    .p-050 {
+        padding: 0 50px;
+    }
+
+    .text-box-carona {
+        display: grid;
+        place-items: center;
+        padding: 20px 0 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 100% !important;
+        margin: 0 auto;
+        padding-left: 15px;
+    }
+
+    
+    .banner {
+        background-size: cover;
+        padding: 40px 0;
+    }
+
+    .text-box {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 25px 25px;
+    }
+
+    .p-80 {
+        padding: 0 0;
+    }
+
+    .text-box h2 {
+        font-size: 2rem;
+        line-height: 35px;
+    }
+
+    .text-header .text-box p {
+        padding: 0px 0 !important;
+    }
+
+    .col-50 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col-100 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .img-box-img {
+        flex-direction: column;
+    }
+
+    .img-box {
+        padding: 30px 20px;
+    }
+
+    .box-three-text {
+        text-align: -webkit-center;
+    }
+
+    .watch-hand-text .hand-text {
+        margin: 30px 0;
+        width: 100%;
+    }
+
+
+
+    .section-doctor {
+        background: url(../images/doctor-bg1.png);
+        padding: 50px 0;
+    }
+
+    .p-5 {
+        padding: 0 0;
+    }
+
+    .section-doctor .max-w700 {
+        width: 90%;
+        display: grid;
+        place-items: center;
+        height: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .m-auto {
+        margin: 0 auto;
+    }
+
+    .deep .wevy {
+        display: none;
+    }
+
+    .max-w700 {
+        width: 80%;
+        transform: translate(10px, 0);
+    }
+
+    .play-icon {
+        display: none;
+    }
+
+    .section-doctor::before {
+        display: none;
+    }
+
+
+    .watch-hand-text h2::after,
+    .watch-hand-text2 h2::after {
+        display: none;
+    }
+
+    .img-box2 {
+        width: 350px;
+    }
+
+    .update_mail {
+        width: 100%;
+    }
+
+    .footer .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-lg-2 {
+        width: 100%;
+        padding: 0 50px ;
+    }
+
+    .footer h6 {
+        margin: 25px 0;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .container {
+        width: 100% !important;
+        margin: 0 auto;
+        padding-left: 15px;
+    }
+    .header .anon {
+        display: none;
+    }
+
+
+    .text-box-carona{
+        text-align: center;
+    }
+
+    .top-box{
+        margin-left: 90%;
+    }
+
+    .p-80{
+        padding: 65px 0;
+    }
+
+    .img-box2{
+        width: 280px;
+    }
+}
