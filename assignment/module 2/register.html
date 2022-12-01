@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <style>
+        body {
+            background-color: #faffaeed;
+        }
+
+        h2 {
+            text-align: left;
+            color: #516453ed;
+        }
+
+        form {
+            display:table;
+        }
+
+        p {
+            display: table-row;
+
+        }
+
+        label {
+            text-align: left;
+            display: table-cell;
+            margin: 2px;
+            padding: 6px;
+        }
+
+        input {
+            display: table-cell;
+            align-content: center;
+        }
+
+        button {
+            text-align: center;
+            color: #fff5f5;
+            background-color: #454850;
+            margin: 22px;
+            padding: -1px;
+            border-radius: 22px;
+            /* cursor: pointer; */
+        }
+
+        /* .resizetextbox{ width: 100px; height: 20px;} */
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Registration</h1> -->
+    <h2>Personal Detail
+        <hr>
+    </h2>
+    <form>
+        <p>
+            <label for="fname">Name </label>:
+            <input type="text" class="resizetextbox" name="Name" size="50" placeholder="Enter your Name"><br>
+            </label>
+        </p>
+        <p>
+            <label for="email">E-mail </label>:
+            <input type="email" name="email" size="50" placeholder="Enter your Email"><br>
+        </p>
+        <p>
+            <label for="phone">Contact No. </label>:
+            <input type="number" name="phone" size="50" placeholder="Enter your No."><br>
+        </p>
+    </form>
+    <h2>Address
+        <hr>
+    </h2>
+    <form>
+        <p>
+            <label for="add">Adreess </label>:
+            <input type="text" name="add" size="50" placeholder="Enter Address"><br>
+            </label>
+        </p>
+        <p>
+            <label for="pin">Pincode </label>:
+            <input type="number" name="pin" maxlength="6" placeholder="Enter Pincode"><br>
+        </p>
+        <p>
+            <label for="country">country name </label>:
+            <input type="text" name="country" size="50" placeholder="country Name"><br>
+        </p>
+    </form>
+    <h2>Card Detail
+        <hr>
+    </h2>
+    <form>
+        <p>
+            <label for="ctype">Card Type </label>:
+            <input type="radio" name="ctype" id="a">Visa
+            <input type="radio" name="ctype" id="b">Rupey
+            <input type="radio" name="ctype" id="c">MasterCard
+        </p>
+        <p>
+            <label for="cno">Card No. </label>:
+            <input type="password" name="cno" size="50" placeholder="Enter your Card No."><br>
+        </p>
+        <p>
+            <label for="code">Security code </label>:
+            <input type="number" name="code" size="50"><br>
+        </p>
+        <p>
+            <label for="cname">Name On Card </label>:
+            <input type="text" name="cname" size="50"><br>
+        </p>
+    </form>
+    <button type="submit" class="btn">Submit</button>
+</body>
+
+</html>
